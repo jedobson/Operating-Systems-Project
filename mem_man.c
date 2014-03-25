@@ -12,3 +12,9 @@
 
 
 
+static page             mem( PAGE_COUNT );
+static u16              page_eval               =       0;
+static mem_manage       mem_man( PAGE_COUNT )   =       (0);
+static u16              mem_offset              =       1;
+static u64              vas_vec( VAS_VEC_SIZE );
+
